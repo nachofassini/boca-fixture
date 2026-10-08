@@ -1,0 +1,231 @@
+{
+  "updatedAt": "2026-10-08T18:36:19.238Z",
+  "hash": "72d227936c675738f3eb25388e4bc131839b3d30202734aad8ce85092d5883d9",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "calendar": {
+    "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
+    "subscribe": "https://calendar.google.com/calendar/u/0?cid=YmU3NmU4YjdiZDQxNTA0YjRjOWU4YWRiNzEzN2QwMWM3YjY2YzBiNWU2YTIzMzZlMDhiNTRmMzdlNWZjMmJkNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+    "embed": "https://calendar.google.com/calendar/embed?src=be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires",
+    "ical": "https://calendar.google.com/calendar/ical/be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6%40group.calendar.google.com/public/basic.ics",
+    "webcal": "webcal://calendar.google.com/calendar/ical/be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6%40group.calendar.google.com/public/basic.ics"
+  },
+  "page": "https://nachofassini.github.io/boca-fixture/",
+  "matches": [
+    {
+      "id": "401841607",
+      "home": {
+        "name": "Instituto (Córdoba)",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+        "initials": "INS"
+      },
+      "away": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - FECHA 12",
+      "dateART": "2026-10-09",
+      "day": "VIE 9/10",
+      "time": "19:30",
+      "kickoffUtc": "2026-10-09T22:30:00.000Z",
+      "venue": "Monumental Presidente Perón",
+      "tv": "TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841607/boca-juniors-instituto-cordoba",
+        "promiedos": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-boca-juniors/egddcgg"
+      }
+    },
+    {
+      "id": "401913958",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "Vasco da Gama",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+        "initials": "VD"
+      },
+      "competition": "Copa Sudamericana",
+      "label": "SUDAMERICANA - SEMI (IDA)",
+      "dateART": "2026-10-13",
+      "day": "MAR 13/10",
+      "time": "21:30",
+      "kickoffUtc": "2026-10-14T00:30:00.000Z",
+      "venue": "Alberto José Armando (La Bombonera)",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401913958/vasco-da-gama-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-vasco-da-gama/eifgijh"
+      }
+    },
+    {
+      "id": "401841627",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "Talleres (Córdoba)",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+        "initials": "TAL"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - FECHA 13",
+      "dateART": "2026-10-16",
+      "day": "VIE 16/10",
+      "time": "21:30",
+      "kickoffUtc": "2026-10-17T00:30:00.000Z",
+      "venue": "Alberto José Armando (La Bombonera)",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841627/talleres-cordoba-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-talleres-cordoba/egddcfg"
+      }
+    },
+    {
+      "id": "401913957",
+      "home": {
+        "name": "Vasco da Gama",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+        "initials": "VD"
+      },
+      "away": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "competition": "Copa Sudamericana",
+      "label": "SUDAMERICANA - SEMI (VUELTA)",
+      "dateART": "2026-10-20",
+      "day": "MAR 20/10",
+      "time": "21:30",
+      "kickoffUtc": "2026-10-21T00:30:00.000Z",
+      "venue": "Estádio São Januário",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401913957/boca-juniors-vasco-da-gama",
+        "promiedos": "https://www.promiedos.com.ar/game/vasco-da-gama-vs-boca-juniors/eifgiji"
+      }
+    },
+    {
+      "id": "401841636",
+      "home": {
+        "name": "Independiente",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+        "initials": "IND"
+      },
+      "away": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - FECHA 14",
+      "dateART": "2026-10-25",
+      "day": "DOM 25/10",
+      "time": "17:00",
+      "kickoffUtc": "2026-10-25T20:00:00.000Z",
+      "venue": "Estadio Libertadores de América",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841636/boca-juniors-independiente",
+        "promiedos": "https://www.promiedos.com.ar/game/independiente-vs-boca-juniors/egddcdf"
+      }
+    },
+    {
+      "id": "401841658",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "River Plate",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+        "initials": "RP"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - FECHA 15",
+      "dateART": "2026-11-01",
+      "day": "DOM 1/11",
+      "time": "15:00",
+      "kickoffUtc": "2026-11-01T18:00:00.000Z",
+      "venue": "Alberto José Armando (La Bombonera)",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841658/river-plate-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-river-plate/egddcch"
+      }
+    },
+    {
+      "id": "401841669",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "Defensa y Justicia",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+        "initials": "DJ"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - FECHA 16",
+      "dateART": "2026-11-08",
+      "day": "DOM 8/11",
+      "time": "13:00",
+      "kickoffUtc": "2026-11-08T16:00:00.000Z",
+      "venue": "Alberto José Armando (La Bombonera)",
+      "tv": null,
+      "timeFromPromiedos": true,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841669/defensa-y-justicia-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-defensa-y-justicia/egddcaf"
+      }
+    },
+    {
+      "id": "401926286",
+      "home": {
+        "name": "Banfield",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+        "initials": "BAN"
+      },
+      "away": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "competition": "Copa Argentina",
+      "label": "COPA ARGENTINA - SEMI",
+      "dateART": "2026-11-14",
+      "day": "SÁB 14/11",
+      "time": "18:00",
+      "kickoffUtc": "2026-11-14T21:00:00.000Z",
+      "venue": null,
+      "tv": null,
+      "timeFromPromiedos": true,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401926286/boca-juniors-banfield",
+        "promiedos": "https://www.promiedos.com.ar/game/banfield-vs-boca-juniors/eiggbcj"
+      }
+    }
+  ]
+}
