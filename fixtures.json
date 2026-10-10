@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T14:08:10.519Z",
-  "hash": "54cf22aa10c2885c245da71b7e89af43fde0c3d64751546dd804094090fe240e",
+  "updatedAt": "2026-10-10T00:00:14.648Z",
+  "hash": "ea11ac911630e4bf5720587dab82835dd54e83a3c41cae246ffd665236285146",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -24,18 +24,18 @@
         "initials": "BJ"
       },
       "competition": "Liga Profesional",
-      "label": "CLAUSURA - FECHA 12",
+      "label": "CLAUSURA",
       "dateART": "2026-10-09",
       "day": "VIE 9/10",
       "time": "19:30",
       "kickoffUtc": "2026-10-09T22:30:00.000Z",
       "venue": "Monumental Presidente Perón",
-      "tv": "TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
+      "tv": "TNT Sports",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401841607/boca-juniors-instituto-cordoba",
-        "promiedos": "https://www.promiedos.com.ar/game/instituto-ac-cordoba-vs-boca-juniors/egddcgg"
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401841607",
+        "promiedos": null
       }
     },
     {
@@ -57,7 +57,7 @@
       "time": "21:30",
       "kickoffUtc": "2026-10-14T00:30:00.000Z",
       "venue": "Alberto José Armando (La Bombonera)",
-      "tv": null,
+      "tv": "ESPN, Disney + Premium, DSports",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
