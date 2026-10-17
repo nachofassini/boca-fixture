@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T15:00:15.723Z",
-  "hash": "7ee93241a0cc01032a7d84304d4cd056e8d3f27c214ad191383e10cfebb32107",
+  "updatedAt": "2026-10-17T12:00:14.715Z",
+  "hash": "5cce7c8da6eb75d983438c1e632f6c5b723c37b29bd15b16feea31ad29cbff19",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -11,33 +11,6 @@
   },
   "page": "https://nachofassini.github.io/boca-fixture/",
   "matches": [
-    {
-      "id": "401841627",
-      "home": {
-        "name": "Boca Juniors",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-        "initials": "BJ"
-      },
-      "away": {
-        "name": "Talleres (Córdoba)",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-        "initials": "TAL"
-      },
-      "competition": "Liga Profesional",
-      "label": "CLAUSURA - FECHA 13",
-      "dateART": "2026-10-16",
-      "day": "VIE 16/10",
-      "time": "21:30",
-      "kickoffUtc": "2026-10-17T00:30:00.000Z",
-      "venue": "Alberto José Armando (La Bombonera)",
-      "tv": "TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
-      "timeFromPromiedos": false,
-      "notes": [],
-      "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401841627/talleres-cordoba-boca-juniors",
-        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-talleres-cordoba/egddcfg"
-      }
-    },
     {
       "id": "401913957",
       "home": {
@@ -57,7 +30,7 @@
       "time": "21:30",
       "kickoffUtc": "2026-10-21T00:30:00.000Z",
       "venue": "Estadio do Maracana",
-      "tv": null,
+      "tv": "ESPN, Disney + Premium, DSports",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
@@ -162,9 +135,9 @@
       "label": "COPA ARGENTINA - SEMI",
       "dateART": "2026-11-14",
       "day": "SÁB 14/11",
-      "time": "18:00",
-      "kickoffUtc": "2026-11-14T21:00:00.000Z",
-      "venue": null,
+      "time": "19:00",
+      "kickoffUtc": "2026-11-14T22:00:00.000Z",
+      "venue": "Estadio Malvinas Argentinas",
       "tv": null,
       "timeFromPromiedos": true,
       "notes": [],
