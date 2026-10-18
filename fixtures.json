@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T12:00:14.715Z",
-  "hash": "5cce7c8da6eb75d983438c1e632f6c5b723c37b29bd15b16feea31ad29cbff19",
+  "updatedAt": "2026-10-18T12:00:16.410Z",
+  "hash": "a228dc52e9947d552e3d627a22c106a6847e3f3edbac9655f79609c4b923609b",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -30,7 +30,7 @@
       "time": "21:30",
       "kickoffUtc": "2026-10-21T00:30:00.000Z",
       "venue": "Estadio do Maracana",
-      "tv": "ESPN, Disney + Premium, DSports",
+      "tv": "ESPN, Disney+ Premium, DSports",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
