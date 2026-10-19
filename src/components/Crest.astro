@@ -12,6 +12,7 @@ const { team } = Astro.props
 <style>
 	.crest{width:50px;height:50px;border-radius:50%;background:#fff;display:grid;place-items:center;overflow:hidden;box-shadow:0 0 0 3px rgba(244,194,13,.6)}
 	.crest img{width:40px;height:40px;object-fit:contain}
-	.crest b{color:var(--navy);font-size:1rem;letter-spacing:.02em}
+	/* <b> también lo inserta cards.ts (sin el atributo de scope de Astro): por eso :global. */
+	.crest :global(b){color:var(--navy);font-size:1rem;letter-spacing:.02em}
 	@media (min-width:560px){.crest{width:72px;height:72px}.crest img{width:60px;height:60px}}
 </style>

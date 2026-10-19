@@ -4,13 +4,18 @@
 //  3) respaldo con Web Animations API para navegadores sin ::details-content (Safari/Firefox al día de hoy).
 const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches
 
+// Escudo roto -> iniciales. Idempotente, y cubre también las imágenes que ya fallaron antes de que corra este módulo
+// (los <script> de Astro son módulos diferidos, así que el evento `error` pudo haber pasado).
+const showInitials = (img: HTMLImageElement) => {
+	const c = img.parentElement
+	if (!c || !img.isConnected) return
+	const b = document.createElement('b')
+	b.textContent = c.getAttribute('data-initials')
+	c.replaceChild(b, img)
+}
 document.querySelectorAll<HTMLImageElement>('.crest img').forEach((img) => {
-	img.addEventListener('error', () => {
-		const c = img.parentElement!
-		const b = document.createElement('b')
-		b.textContent = c.getAttribute('data-initials')
-		c.replaceChild(b, img)
-	})
+	if (img.complete && img.naturalWidth === 0) showInitials(img)
+	else img.addEventListener('error', () => showInitials(img), { once: true })
 })
 
 const cards = document.querySelectorAll<HTMLDetailsElement>('details.match')

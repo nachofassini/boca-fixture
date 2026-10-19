@@ -15,7 +15,8 @@ Pages pase a "GitHub Actions":
   A partir de ahí el `index.html` de la raíz deja de servirse (se puede borrar). Para volver atrás: Pages → "Deploy from a branch".
 
 ```
-.github/workflows/pages.yml   build (Node 26) + deploy a GitHub Pages; corre en push a main (solo si cambia el sitio) y a mano
+.github/workflows/pages.yml   build (Node 26) + deploy a GitHub Pages; corre en push a main (si cambia el sitio o los datos) y a mano
+scripts/pick-data.mjs         en el workflow, elige los datos más nuevos entre fixtures.json (raíz) y src/data/fixtures.json
 astro.config.mjs              site: https://nachofassini.github.io, base: /boca-fixture
 src/data/fixtures.json        datos (misma forma que el fixtures.json de la raíz)
 src/lib/fixtures.ts           tipos + carga del JSON + formato "Actualizado: …" (hora argentina)
@@ -42,6 +43,9 @@ npm run preview
 
 ## Datos
 
-`src/data/fixtures.json` es una copia de `fixtures.json` (raíz) tomada al armar la migración. Hoy lo sigue actualizando el job
-sobre el `fixtures.json` de la raíz y NO sobre `src/data/`; cuando el paquete de Kody pase a escribir `src/data/fixtures.json`
-(siguiente paso) los datos del sitio se actualizan solos con cada push.
+Mientras el job de Kody siga escribiendo `fixtures.json` en la raíz (junto con el `index.html` viejo), ese archivo dispara el
+workflow y `scripts/pick-data.mjs` lo usa para el build si es más nuevo que `src/data/fixtures.json` (compara `updatedAt`).
+Cuando el paquete de Kody pase a escribir `src/data/fixtures.json` (siguiente paso), esa copia pasa a ser la más nueva y gana
+sola; los archivos viejos de la raíz (`index.html`, `fixtures.json`) quedan sin actualizar hasta que se los limpie. Así Pages se
+puede activar antes o después de migrar Kody sin quedarse con datos viejos. `src/data/fixtures.json` es una copia versionada
+(no se modifica en el workflow más que en su propio checkout).
