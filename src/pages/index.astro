@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro'
+import Header from '../components/Header.astro'
+import MatchCard from '../components/MatchCard.astro'
+import Footer from '../components/Footer.astro'
+import { fixtures, artStamp } from '../lib/fixtures'
+---
+<Base>
+	<Header updatedLabel={artStamp(fixtures.updatedAt)} updatedIso={fixtures.updatedAt} />
+	<main>
+		{fixtures.matches.length
+			? <ol>{fixtures.matches.map((m, i) => <MatchCard match={m} open={i === 0} />)}</ol>
+			: <p class="empty">No hay partidos programados por ahora.</p>}
+	</main>
+	<Footer />
+	<!-- Único JS propio: mejora progresiva de las tarjetas (ver src/scripts/cards.ts). -->
+	<script>
+		import '../scripts/cards'
+	</script>
+</Base>
+
+<style>
+	main{max-width:720px;margin:0 auto;padding:16px 12px 8px}
+	ol{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+	.empty{background:#fff;border-radius:16px;padding:24px;text-align:center;color:var(--muted)}
+</style>

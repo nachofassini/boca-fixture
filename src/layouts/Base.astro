@@ -1,0 +1,29 @@
+---
+// Documento HTML + estilos globales (tokens de color, reset). Los estilos de cada componente van con scope.
+interface Props { title?: string; description?: string }
+const { title = 'Fixture de Boca Juniors', description = 'Próximos partidos de Boca Juniors: fecha, hora (Argentina), estadio y TV. Se actualiza automáticamente.' } = Astro.props
+const favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"
+---
+<!doctype html>
+<html lang="es-AR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="theme-color" content="#0b1f4b" />
+		<link rel="icon" href={favicon} />
+	</head>
+	<body>
+		<slot />
+		<!-- Analítica (igual que hoy). -->
+		<script is:inline data-goatcounter="https://boca-fixture.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+	</body>
+</html>
+
+<style is:global>
+	:root{--navy:#0b1f4b;--navy2:#13306e;--gold:#f4c20d;--ink:#0b1f4b;--bg:#eef1f7;--muted:#5a6785;--anim:.35s;interpolate-size:allow-keywords}
+	*{box-sizing:border-box}
+	html{-webkit-text-size-adjust:100%}
+	body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.4}
+</style>

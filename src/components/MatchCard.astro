@@ -1,0 +1,73 @@
+---
+import Crest from './Crest.astro'
+import { fixtures, type SiteMatch } from '../lib/fixtures'
+
+interface Props { match: SiteMatch; open?: boolean }
+const { match: m, open = false } = Astro.props
+const notes = [...(m.timeFromPromiedos ? ['Horario según Promiedos (ESPN aún no lo confirmó).'] : []), ...m.notes]
+const label = `${m.home.name} contra ${m.away.name}, ${m.label}, ${m.day}, ${m.time ?? 'horario a confirmar'}`
+---
+<li>
+	<details class="match" id={`m-${m.id.replace(/[^\w-]/g, '-')}`} open={open}>
+		<summary aria-label={label}>
+			<div class="team home"><Crest team={m.home} /><span class="tname">{m.home.name}</span></div>
+			<div class="mid">
+				<span class="comp">{m.label}</span>
+				<span class="day">{m.day}</span>
+				<span class:list={['time', { tbd: !m.time }]}>{m.time ?? 'A CONFIRMAR'}</span>
+			</div>
+			<div class="team away"><Crest team={m.away} /><span class="tname">{m.away.name}</span></div>
+			<span class="chev" aria-hidden="true"></span>
+		</summary>
+		<div class="more">
+			<dl>
+				<div><dt>Competición</dt><dd>{m.competition}</dd></div>
+				<div><dt>Fecha</dt><dd>{m.day}{m.time ? ` · ${m.time} h (hora argentina)` : ' · horario a confirmar'}</dd></div>
+				{m.venue && <div><dt>Estadio</dt><dd>{m.venue}</dd></div>}
+				<div><dt>TV</dt><dd>{m.tv ?? 'A confirmar'}</dd></div>
+			</dl>
+			{notes.length > 0 && <ul class="notes">{notes.map((n) => <li>{n}</li>)}</ul>}
+			<p class="actions">
+				{(m.links.espn || m.links.promiedos) && (
+					<span>Fuentes: {m.links.espn && <a href={m.links.espn} rel="noopener" target="_blank">ESPN</a>}{m.links.espn && m.links.promiedos && ' · '}{m.links.promiedos && <a href={m.links.promiedos} rel="noopener" target="_blank">Promiedos</a>}</span>
+				)}
+				<a class="btn" href={fixtures.calendar.subscribe} rel="noopener" target="_blank">Agregar al calendario</a>
+			</p>
+		</div>
+	</details>
+</li>
+
+<style>
+	.match{--side:88px;background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;border-radius:16px;box-shadow:0 4px 14px rgba(11,31,75,.25);overflow:hidden;border:1px solid rgba(244,194,13,.35)}
+	/* 1) Columnas laterales de ancho fijo: los escudos quedan alineados entre tarjetas. */
+	summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:var(--side) minmax(0,1fr) var(--side);align-items:start;gap:6px;padding:16px 6px 22px;position:relative}
+	summary::-webkit-details-marker{display:none}
+	/* 2) Anillo de foco sobre la tarjeta: sigue el radio del borde. */
+	summary:focus-visible{outline:3px solid var(--gold);outline-offset:-3px;border-radius:15px}
+	.match[open] summary:focus-visible{border-radius:15px 15px 0 0}
+	@supports selector(:has(*)){.match:has(>summary:focus-visible){outline:3px solid var(--gold);outline-offset:3px}summary:focus-visible{outline:none}}
+	.team{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;min-width:0}
+	.tname{font-size:.72rem;font-weight:600;line-height:1.15;overflow-wrap:break-word;hyphens:auto;max-width:100%}
+	.mid{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;min-width:0}
+	.comp{font-size:.64rem;font-weight:700;letter-spacing:.06em;color:var(--gold);text-transform:uppercase;text-wrap:balance;overflow-wrap:anywhere;min-height:2.5em;display:flex;align-items:flex-end;justify-content:center}
+	.day{white-space:nowrap;font-size:clamp(1.25rem,6.2vw,2.1rem);font-weight:800;letter-spacing:.02em;line-height:1.05}
+	.time{font-size:1.15rem;font-weight:700;background:var(--gold);color:var(--navy);border-radius:999px;padding:2px 12px;margin-top:4px}
+	.time.tbd{font-size:.78rem;letter-spacing:.06em;padding:4px 10px}
+	/* 3) Animación de apertura/cierre de 350 ms. */
+	.chev{position:absolute;left:50%;bottom:6px;width:10px;height:10px;margin-left:-5px;border-right:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(45deg);transition:transform var(--anim) ease,bottom var(--anim) ease}
+	details[open]:not(.closing) .chev{transform:rotate(-135deg);bottom:2px}
+	.match::details-content{block-size:0;opacity:0;overflow:clip;transition:block-size var(--anim) ease,opacity var(--anim) ease,content-visibility var(--anim) allow-discrete}
+	.match[open]::details-content{block-size:auto;opacity:1}
+	.more{background:#fff;color:var(--ink);padding:12px 16px 14px;font-size:.9rem}
+	dl{margin:0;display:grid;gap:6px}
+	dl div{display:grid;grid-template-columns:110px 1fr;gap:8px}
+	dt{color:var(--muted);font-weight:600}
+	dd{margin:0}
+	.notes{margin:10px 0 0;padding-left:18px;color:var(--muted);font-size:.85rem}
+	.actions{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin:12px 0 0}
+	.actions a{color:var(--navy2);font-weight:600}
+	.btn{background:var(--navy);color:#fff!important;text-decoration:none;padding:8px 14px;border-radius:10px;border:2px solid var(--gold)}
+	@media (max-width:359px){summary{grid-template-columns:1fr 1fr;row-gap:8px}.home{grid-column:1;grid-row:1}.away{grid-column:2;grid-row:1}.mid{grid-column:1/-1;grid-row:2}}
+	@media (min-width:560px){.match{--side:128px}.tname{font-size:.95rem}.comp{font-size:.75rem;min-height:0}}
+	@media (prefers-reduced-motion:reduce){.chev,.match::details-content{transition:none}}
+</style>
