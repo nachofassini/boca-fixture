@@ -1,0 +1,15 @@
+---
+interface Props { updatedLabel: string; updatedIso: string }
+const { updatedLabel, updatedIso } = Astro.props
+---
+<header>
+	<h1>Fixture de <span>Boca Juniors</span></h1>
+	<p>Actualizado: <time datetime={updatedIso}>{updatedLabel}</time></p>
+</header>
+
+<style>
+	header{background:var(--navy);color:#fff;padding:20px 16px 18px;border-bottom:6px solid var(--gold);text-align:center}
+	h1{margin:0;font-size:clamp(1.35rem,5vw,2rem);letter-spacing:.02em}
+	h1 span{color:var(--gold)}
+	p{margin:6px 0 0;font-size:.85rem;opacity:.85}
+</style>
