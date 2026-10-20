@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T12:00:50.229Z",
-  "hash": "a20c357c1e0a6cb261fd97e972707c09e43f29fbf118b6835969e70c1a8e6f80",
+  "updatedAt": "2026-10-20T18:00:24.127Z",
+  "hash": "3da65b9f324a20d7dc6c8196dbc6270f9b1bf5a2916cc5d7a84267e8a16518bc",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -139,7 +139,7 @@
       "kickoffUtc": "2026-11-14T22:00:00.000Z",
       "venue": "Malvinas Argentinas (Mendoza)",
       "tv": null,
-      "timeFromPromiedos": true,
+      "timeFromPromiedos": false,
       "notes": [],
       "links": {
         "espn": "https://www.espn.com/soccer/match/_/gameId/401926286/boca-juniors-banfield",
