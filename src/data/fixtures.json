@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T12:01:10.326Z",
-  "hash": "22904cf18f030ddd146db40f21453076ed2bafe64ced2baac2b3bfe7b9e822ec",
+  "updatedAt": "2026-10-22T12:01:10.821Z",
+  "hash": "8f308e8a2f222a5194fb1a3c65f8c58574b345955595358df63bf1871e57b36e",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -120,11 +120,40 @@
       }
     },
     {
+      "id": "promiedos:eiiddih",
+      "home": {
+        "name": "Atlético Mineiro",
+        "logo": "https://api.promiedos.com.ar/images/team/bcaj/1",
+        "initials": "AM"
+      },
+      "away": {
+        "name": "Boca Juniors",
+        "logo": "https://api.promiedos.com.ar/images/team/igg/1",
+        "initials": "BJ"
+      },
+      "competition": "Copa Sudamericana",
+      "label": "SUDAMERICANA - FINAL",
+      "dateART": "2026-11-21",
+      "day": "SÁB 21/11",
+      "time": "13:00",
+      "kickoffUtc": "2026-11-21T16:00:00.000Z",
+      "venue": "Estadio Metropolitano Roberto Meléndez",
+      "tv": null,
+      "timeFromPromiedos": true,
+      "notes": [
+        "(según Promiedos; ESPN aún no lo publica)"
+      ],
+      "links": {
+        "espn": null,
+        "promiedos": "https://www.promiedos.com.ar/game/atletico-mineiro-vs-boca-juniors/eiiddih"
+      }
+    },
+    {
       "id": "401913961",
       "home": {
-        "name": "TBD Home",
-        "logo": null,
-        "initials": "TH"
+        "name": "Atlético-MG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "initials": "AM"
       },
       "away": {
         "name": "Boca Juniors",
@@ -142,7 +171,7 @@
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401913961/boca-juniors-tbd-home",
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401913961/boca-juniors-atletico-mg",
         "promiedos": null
       }
     }
