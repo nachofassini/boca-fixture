@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T00:00:17.745Z",
-  "hash": "d2dfdf3347f67e9f402bbbcb77faef69fc63a1107629034a6d9581c116046bcd",
+  "updatedAt": "2026-11-02T00:00:22.895Z",
+  "hash": "e80a32ef98872e5a3f2f03c04d6f7d734ecc8e5463b44bafacb6656ec885e46e",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -11,33 +11,6 @@
   },
   "page": "https://nachofassini.github.io/boca-fixture/",
   "matches": [
-    {
-      "id": "401841658",
-      "home": {
-        "name": "Boca Juniors",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-        "initials": "BJ"
-      },
-      "away": {
-        "name": "River Plate",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
-        "initials": "RP"
-      },
-      "competition": "Liga Profesional",
-      "label": "CLAUSURA - FECHA 15",
-      "dateART": "2026-11-01",
-      "day": "DOM 1/11",
-      "time": "15:00",
-      "kickoffUtc": "2026-11-01T18:00:00.000Z",
-      "venue": "Alberto José Armando (La Bombonera)",
-      "tv": "ESPN Premium, TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
-      "timeFromPromiedos": false,
-      "notes": [],
-      "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401841658/river-plate-boca-juniors",
-        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-river-plate/egddcch"
-      }
-    },
     {
       "id": "401841669",
       "home": {
