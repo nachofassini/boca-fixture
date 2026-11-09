@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-08T12:00:11.416Z",
-  "hash": "e2597b89ebafdbe3fcb54643d3dd63a17ff633b65df5292218cf2c472dd0efe8",
+  "updatedAt": "2026-11-09T12:00:53.670Z",
+  "hash": "4a677d8e7350a26dcbde919f185561e2f11ad00395970a6a440266bc19ff8c71",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -63,6 +63,33 @@
       "links": {
         "espn": "https://www.espn.com/soccer/match/_/gameId/401913961/boca-juniors-atletico-mg",
         "promiedos": "https://www.promiedos.com.ar/game/atletico-mineiro-vs-boca-juniors/eiiddih"
+      }
+    },
+    {
+      "id": "401933757",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "Independiente Rivadavia",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+        "initials": "IR"
+      },
+      "competition": "Liga Profesional",
+      "label": "CLAUSURA - OCTAVOS",
+      "dateART": "2026-11-22",
+      "day": "DOM 22/11",
+      "time": null,
+      "kickoffUtc": null,
+      "venue": "Alberto José Armando (La Bombonera)",
+      "tv": null,
+      "timeFromPromiedos": false,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401933757/independiente-rivadavia-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-independiente-rivadavia/eijbgji"
       }
     }
   ]
