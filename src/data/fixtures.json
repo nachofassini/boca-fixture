@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-09T12:00:53.670Z",
-  "hash": "4a677d8e7350a26dcbde919f185561e2f11ad00395970a6a440266bc19ff8c71",
+  "updatedAt": "2026-11-12T00:00:17.799Z",
+  "hash": "27dfb41c4224a93c6d4510cb68e87df933a6f70865b54da44ab5921e7b551df7",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -86,7 +86,9 @@
       "venue": "Alberto José Armando (La Bombonera)",
       "tv": null,
       "timeFromPromiedos": false,
-      "notes": [],
+      "notes": [
+        "Promiedos indica otra fecha: 25/11/2026 21:00 (ART)."
+      ],
       "links": {
         "espn": "https://www.espn.com/soccer/match/_/gameId/401933757/independiente-rivadavia-boca-juniors",
         "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-independiente-rivadavia/eijbgji"
