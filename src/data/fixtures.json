@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T12:00:54.447Z",
-  "hash": "7dbb322b5514962b21f65d79f7eca172b8dd2dfee4584baa7f00aee21a5299f8",
+  "updatedAt": "2026-11-15T00:00:13.389Z",
+  "hash": "0aa01aee007c5533587aa5eca7b40b7212829869e468a89ca62301def1eb81c0",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -11,33 +11,6 @@
   },
   "page": "https://nachofassini.github.io/boca-fixture/",
   "matches": [
-    {
-      "id": "401926286",
-      "home": {
-        "name": "Banfield",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-        "initials": "BAN"
-      },
-      "away": {
-        "name": "Boca Juniors",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-        "initials": "BJ"
-      },
-      "competition": "Copa Argentina",
-      "label": "COPA ARGENTINA - SEMI",
-      "dateART": "2026-11-14",
-      "day": "SÁB 14/11",
-      "time": "19:00",
-      "kickoffUtc": "2026-11-14T22:00:00.000Z",
-      "venue": "Malvinas Argentinas (Mendoza)",
-      "tv": "TyC Sports, TyC Sports Play",
-      "timeFromPromiedos": false,
-      "notes": [],
-      "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401926286/boca-juniors-banfield",
-        "promiedos": "https://www.promiedos.com.ar/game/banfield-vs-boca-juniors/eiggbcj"
-      }
-    },
     {
       "id": "401913961",
       "home": {
@@ -90,6 +63,33 @@
       "links": {
         "espn": "https://www.espn.com/soccer/match/_/gameId/401933757/independiente-rivadavia-boca-juniors",
         "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-independiente-rivadavia/eijbgji"
+      }
+    },
+    {
+      "id": "401932277",
+      "home": {
+        "name": "Boca Juniors",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "initials": "BJ"
+      },
+      "away": {
+        "name": "Platense",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+        "initials": "PLA"
+      },
+      "competition": "Copa Argentina",
+      "label": "COPA ARGENTINA - FINAL",
+      "dateART": "2026-12-02",
+      "day": "MIÉ 2/12",
+      "time": "20:00",
+      "kickoffUtc": "2026-12-02T23:00:00.000Z",
+      "venue": null,
+      "tv": null,
+      "timeFromPromiedos": true,
+      "notes": [],
+      "links": {
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401932277/platense-boca-juniors",
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-platense/eijedca"
       }
     }
   ]
