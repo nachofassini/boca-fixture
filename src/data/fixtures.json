@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T00:00:13.389Z",
-  "hash": "0aa01aee007c5533587aa5eca7b40b7212829869e468a89ca62301def1eb81c0",
+  "updatedAt": "2026-11-15T12:00:12.631Z",
+  "hash": "24e72d9b32bb408c36eb8395af20ca42c8d702d8bc9d5b13aef5f4884107e140",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -30,7 +30,7 @@
       "time": "19:30",
       "kickoffUtc": "2026-11-21T22:30:00.000Z",
       "venue": "Metropolitano Roberto Meléndez",
-      "tv": null,
+      "tv": "DSports",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
@@ -81,8 +81,8 @@
       "label": "COPA ARGENTINA - FINAL",
       "dateART": "2026-12-02",
       "day": "MIÉ 2/12",
-      "time": "20:00",
-      "kickoffUtc": "2026-12-02T23:00:00.000Z",
+      "time": "14:00",
+      "kickoffUtc": "2026-12-02T17:00:00.000Z",
       "venue": null,
       "tv": null,
       "timeFromPromiedos": true,
