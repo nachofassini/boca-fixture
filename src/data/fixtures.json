@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T18:00:16.344Z",
-  "hash": "d14cde6609979d29d84ef8be50d15767758bb4cae0eeafb00e488dc1e5a6a27a",
+  "updatedAt": "2026-11-25T18:00:14.182Z",
+  "hash": "2d5c4864e6425b83337f01d9671a391978bab2620c22587243661d80e891767f",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -54,9 +54,9 @@
       "label": "COPA ARGENTINA - FINAL",
       "dateART": "2026-12-02",
       "day": "MIÉ 2/12",
-      "time": "14:00",
-      "kickoffUtc": "2026-12-02T17:00:00.000Z",
-      "venue": null,
+      "time": "20:00",
+      "kickoffUtc": "2026-12-02T23:00:00.000Z",
+      "venue": "Estadio Madre de Ciudades",
       "tv": null,
       "timeFromPromiedos": true,
       "notes": [],
