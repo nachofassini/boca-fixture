@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T00:00:10.512Z",
-  "hash": "f5e60e62ef16a03b5d94f09326dca929de56e3369e0a4268917b140164b04a5b",
+  "updatedAt": "2026-11-26T12:00:28.902Z",
+  "hash": "62936ccb0bcc86b91515950a2026dc0c19367e4a5dc747b883fa1dc5dc895952",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -12,30 +12,32 @@
   "page": "https://nachofassini.github.io/boca-fixture/",
   "matches": [
     {
-      "id": "401933757",
+      "id": "promiedos:ejabbba",
       "home": {
         "name": "Boca Juniors",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+        "logo": "https://api.promiedos.com.ar/images/team/igg/1",
         "initials": "BJ"
       },
       "away": {
-        "name": "Independiente Rivadavia",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-        "initials": "IR"
+        "name": "Gimnasia y Esgrima La Plata",
+        "logo": "https://api.promiedos.com.ar/images/team/iia/1",
+        "initials": "GE"
       },
       "competition": "Liga Profesional",
-      "label": "CLAUSURA - OCTAVOS",
-      "dateART": "2026-11-25",
-      "day": "MIÉ 25/11",
-      "time": "21:00",
-      "kickoffUtc": "2026-11-26T00:00:00.000Z",
-      "venue": "Alberto José Armando (La Bombonera)",
-      "tv": "ESPN Premium",
-      "timeFromPromiedos": false,
-      "notes": [],
+      "label": "LIGA PROFESIONAL - CUARTOS",
+      "dateART": "2026-11-29",
+      "day": "DOM 29/11",
+      "time": "20:30",
+      "kickoffUtc": "2026-11-29T23:30:00.000Z",
+      "venue": "Estadio Alberto José Armando",
+      "tv": null,
+      "timeFromPromiedos": true,
+      "notes": [
+        "(según Promiedos; ESPN aún no lo publica)"
+      ],
       "links": {
-        "espn": "https://www.espn.com/soccer/match/_/gameId/401933757/independiente-rivadavia-boca-juniors",
-        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-independiente-rivadavia/eijbgji"
+        "espn": null,
+        "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-gimnasia-la-plata/ejabbba"
       }
     },
     {
@@ -57,7 +59,7 @@
       "time": "20:00",
       "kickoffUtc": "2026-12-02T23:00:00.000Z",
       "venue": "'Estadio Único Madre de Ciudades",
-      "tv": null,
+      "tv": "TyC Sports, TyC Sports Play",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
