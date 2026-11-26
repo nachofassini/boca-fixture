@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T12:00:28.902Z",
-  "hash": "62936ccb0bcc86b91515950a2026dc0c19367e4a5dc747b883fa1dc5dc895952",
+  "updatedAt": "2026-11-26T18:00:10.317Z",
+  "hash": "b3ccab07810f3f413934695fe27c1ef1ecabcc5d9aaea772949011e2c9341329",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -12,31 +12,29 @@
   "page": "https://nachofassini.github.io/boca-fixture/",
   "matches": [
     {
-      "id": "promiedos:ejabbba",
+      "id": "401936657",
       "home": {
         "name": "Boca Juniors",
-        "logo": "https://api.promiedos.com.ar/images/team/igg/1",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
         "initials": "BJ"
       },
       "away": {
-        "name": "Gimnasia y Esgrima La Plata",
-        "logo": "https://api.promiedos.com.ar/images/team/iia/1",
-        "initials": "GE"
+        "name": "Gimnasia La Plata",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+        "initials": "GP"
       },
       "competition": "Liga Profesional",
-      "label": "LIGA PROFESIONAL - CUARTOS",
+      "label": "CLAUSURA - CUARTOS",
       "dateART": "2026-11-29",
       "day": "DOM 29/11",
       "time": "20:30",
       "kickoffUtc": "2026-11-29T23:30:00.000Z",
-      "venue": "Estadio Alberto José Armando",
+      "venue": "Alberto José Armando (La Bombonera)",
       "tv": null,
-      "timeFromPromiedos": true,
-      "notes": [
-        "(según Promiedos; ESPN aún no lo publica)"
-      ],
+      "timeFromPromiedos": false,
+      "notes": [],
       "links": {
-        "espn": null,
+        "espn": "https://www.espn.com/soccer/match/_/gameId/401936657/gimnasia-la-plata-boca-juniors",
         "promiedos": "https://www.promiedos.com.ar/game/boca-juniors-vs-gimnasia-la-plata/ejabbba"
       }
     },
