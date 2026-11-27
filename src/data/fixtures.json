@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T12:00:26.772Z",
-  "hash": "ed04bc4296990eb6e7211851cbb406fe88c71bc22c4890cc1685031b31454bfb",
+  "updatedAt": "2026-11-27T18:00:11.334Z",
+  "hash": "3a5bd07bbbc6bb76275246ac08a2c2f0db581db1bdfd1adab49563c396741d2b",
   "timezone": "America/Argentina/Buenos_Aires",
   "calendar": {
     "id": "be76e8b7bd41504b4c9e8adb7137d01c7b66c0b5e6a2336e08b54f37e5fc2bd6@group.calendar.google.com",
@@ -30,7 +30,7 @@
       "time": "20:30",
       "kickoffUtc": "2026-11-29T23:30:00.000Z",
       "venue": "Alberto José Armando (La Bombonera)",
-      "tv": "TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
+      "tv": "ESPN, Disney+ Estándar, TNT Sports Premium, HBO MAX (Suscripción Pack fútbol)",
       "timeFromPromiedos": false,
       "notes": [],
       "links": {
